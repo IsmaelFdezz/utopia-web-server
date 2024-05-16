@@ -40,7 +40,7 @@ app.post("/create_preference", async (req, res) => {
         },
       ],
       back_urls: {
-        success: "https://utopiastw.com/",
+        success: "https://utopiastw.com/checkout/order-recieved",
         failure: "https://utopiastw.com/",
         pending: "https://utopiastw.com/",
       },
